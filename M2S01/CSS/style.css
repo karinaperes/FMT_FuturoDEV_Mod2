@@ -1,0 +1,50 @@
+#container-topo {
+    background-color: rgb(55, 55, 92);
+    color: aliceblue;
+    text-align: center;
+    width: 100vw;
+    padding: 20px;
+    margin-left: 0;
+    box-sizing: border-box;
+    position: relative;
+    left: 0;            
+}
+.descricao {            
+    margin-right: 10%;
+    display: flex;
+    align-items: center; 
+    font-size: 20px;         
+    
+}
+p {
+    color: darkgrey;
+    text-align: justify;            
+}
+img {
+    width: 25%;
+    height: 25%;
+    margin: 5%;
+    
+}
+
+.listas {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 2%;            
+    font-size: 25px;
+    
+}
+#interesses {
+    margin-right: 10%;
+    margin-left: 10%;  
+    color: rgb(55, 55, 92);  
+}
+#passo-passo {
+    margin-left: 10%;
+    color: rgb(94, 50, 88);
+}
+.seta {
+    font-size: 40px;
+}
+
