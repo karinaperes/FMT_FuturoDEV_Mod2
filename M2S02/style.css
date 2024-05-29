@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Trirong", serif;
+}
+
+.text-pink {
+    color: rgb(255, 0, 76);
+}
+
+.text-blue {
+    color: rgb(63, 103, 211);
+}
+
