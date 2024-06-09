@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./imgs/background.png');
+    min-height: 100%;   
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2em 25vw;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.info {
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 30px;
+    padding: 60px;
+}
+
+.titulo {
+    font-size: 18px;
+}
+
+.genero {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.descricao {
+    font-size: 14px;    
+}
+
+.card-episodio {
+    width: 230px;
+    height: 135px;
+    background-color: #e5e5e5;
+    border-radius: 6px;
+}
+
+.red {
+    color: red;
+}
+
+.poster {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 75px;
+    height: 450px;
+    
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-left: 150px;  
+    height: 200px; 
+    margin-top: 150px;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start
+}
+
+.m-t-14 {
+    margin-top: 14px;
+}
+
+.m-t-28 {
+    margin-top: 28px;
+}
+
+
+
