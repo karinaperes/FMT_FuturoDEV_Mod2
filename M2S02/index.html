@@ -3,17 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <title>Título</title>
 </head>
 <body>
-    <h1>Título</h1>
+    <div class="container">
+        <h1 class="text-pink">Título</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, minima?</p>
+        <div class="flex-start">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, minima?</p>
 
-    <ul>
+    <ul class="text-blue">
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
+
+    <form action="" class="column">
+        <label>Nome:
+            <input type="text" name="nome" size="50">
+        </label>
+        <label>E-mail:
+            <input type="text" email="email" size="50">
+        </label>
+        <br>
+        <div class="mensagem-container">
+            <label>Mensagem: <br>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem"></textarea>
+            </label>
+        </div>        
+    </form>
+
+    <div class="btn-row">
+        <button>Limpar</button>
+
+        <button>Enviar</button>
+    </div>
+
+        </div>
+    
+    
+    </div>    
 </body>
 </html>

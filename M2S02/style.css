@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Trirong", serif;
+    margin: 0 auto;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-pink {
+    color: rgb(255, 0, 76);
+}
+
+.text-blue {
+    color: rgb(63, 103, 211);
+}
+
+.mensagem-container {
+    margin-top: 10px;
+}
+
+#mensagem {
+    width: 100vh;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+button {
+    width: 100px;
+    height: 50px; 
+    cursor: pointer;  
+    padding: 10px; 
+    background-color: rgb(255, 0, 76);
+    color: white;
+    border: none;
+    border-radius: 5px;    
+}
+
+.btn-row {
+    display: flex;    
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;     
+}
+
+input {
+    border-color: rgb(63, 103, 211);    
+    padding: 4px;
+    margin: 10px;
+    border-style:solid;
+    font-family: 'Courier New', Courier, monospace;
+}
+
