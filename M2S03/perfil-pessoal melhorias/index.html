@@ -7,7 +7,6 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, SEO">
     <meta name="author" content="Karina Peres">
     <meta property="og:title" content="Karina Peres">    
-    <meta property="og:image" content="./imgs/ogp.png">
     <meta property="og:description" content="Portfolio pessoal">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./imgs/favicon-16x16.png" type="image/x-icon">
@@ -15,7 +14,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container column">
         <header>
             <nav class="menu">
                 <ul>
@@ -26,31 +25,36 @@
             </nav>              
         </header>
     
-        <main>
-          <section class="card">
+        <main class="row">
+          <section class="card column">
             <div class="perfil">
                 <img src="./imgs/foto.png" alt="Imagem foto" width="120">
-                <h3>KARINA PERES</h3>                
+                <h3 class="mg-15">KARINA PERES</h3>                
             </div>
 
             <div id="line-card"></div>
 
             <div id="cargo">
-                <p>PROFISSÃO</p>
+                <p>PRECISANDO TRABALHAR</p>
             </div>
 
-            <div class="social-container">
+            <div class="social-container row">
                 <div class="social-icons">
-                    <img class="press" src="./imgs/github.png" alt="Link Github" width="30" style="cursor: pointer;">
-                    <img class="press" src="./imgs/linkedin.png" alt="Link Linkedin" width="30" style="cursor: pointer;">
+                    <a href="https://github.com/karinaperes" target="_blank">
+                        <img class="press"  src="./imgs/github.png" alt="Link Github" width="30" style="cursor: pointer;">
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/karina-peresg/" target="_blank">
+                        <img class="press" src="./imgs/linkedin.png" alt="Link Linkedin" width="30" style="cursor: pointer;">
+                    </a>                    
                 </div>            
             </div>
           </section>
 
-          <section class="sobre-container">
+          <section class="sobre-container column">
             <h4>Sobre Mim</h4>
             <div>
-                <button>Projetos</button>
+                <button onclick="window.open('https://github.com/karinaperes?tab=repositories', '_blank')">Projetos</button>
                 <button>Contato</button>
             </div>
             
@@ -65,9 +69,8 @@
                     <p class="bold mg-lft-100">Hard Skills</p>
                     <li class="mg-lft-100">HTML</li>
                     <li class="mg-lft-100">CSS</li>
-                    <li class="mg-lft-100">JavaScript</li>                    
+                    <li class="mg-lft-100">JavaScript</li>
                 </ul>
-
                 <ul>
                     <p class="bold mg-lft-100">Soft Skills</p>
                     <li class="mg-lft-100">Criatividade</li>
@@ -80,17 +83,17 @@
           </section>
         </main>
     </div>
-    <footer class="footer-container">
+    <footer class="footer-container row">
         <div>
             <p>© 2024 by Karina Peres</p>
         </div>
         <div class="row">
             <div class="column">
-                <p>TELEFONE</p>
+                <p class="bold">TELEFONE</p>
                 <p>48 99181-0737</p>
             </div>
             <div class="column mg-lft-100 mg-lft-50">
-                <p>E-MAIL</p>
+                <p class="bold">E-MAIL</p>
                 <P>karinaperesg@gmail.com</P>
             </div>
         </div>

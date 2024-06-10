@@ -6,16 +6,31 @@
     box-sizing: border-box;     
 }
 
-.container {
+.column {
     display: flex;
     flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.mg-lft-100 {
+    margin-left: 100px;
+}
+
+.mg-lft-50 {
+    margin-right: 50px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 header {
     margin-top: 20px;
     margin-left: 30px;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -39,29 +54,21 @@ header {
     margin-top: 20px;    
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    margin: 30px;
-}
-
 .card {
-    display: flex;
     height: 400px;
     width: 260px;
     background-color: #b48b9b;
     align-items: center;
-    flex-direction: column;
     border-radius: 30px;  
     justify-content: space-between;  
     box-shadow: 6px 6px 5px rgba(12, 10, 10, 0.2); 
-    margin-left: 50px;     
+    margin-left: 90px;        
 }
 
 .perfil {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;       
 }
 
 #line-card {
@@ -74,7 +81,7 @@ main {
 #cargo {
     display: flex;
     margin-bottom: 60px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h3 {
@@ -82,13 +89,11 @@ h3 {
 }
 
 .social-container {
-    display: flex;
     height: 58px;
     width: 260px;
     background-color: white;    
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: center;    
 }
@@ -105,16 +110,12 @@ h4 {
 }
 
 .sobre-container {
-    display: flex;
-    flex-direction: column;
     padding: 30px;  
     width: 600px;
     margin-left: 150px;
 }
 
 .footer-container {  
-    display: flex;
-    flex-direction: row;  
     background-color: #503C3C;
     height: 50px;
     position: absolute;
@@ -130,14 +131,9 @@ h4 {
     font-size: 14px;    
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
+.press:active {
+    transform: translateY(2px); 
+    box-shadow: 0 2px #414141;
 }
 
 button {
@@ -162,28 +158,11 @@ button:hover {
     background-color: #b48b9b;
 }
 
-.press:active {
-    transform: translateY(2px); 
-    box-shadow: 0 2px #414141;
-}
-
 .skills {
     display: flex;
     flex-direction: row;
     margin: 20px;
     padding: 10px;
-}
-
-.mg-lft-100 {
-    margin-left: 100px;
-}
-
-.mg-lft-50 {
-    margin-right: 50px;
-}
-
-.bold {
-    font-weight: bold;
 }
 
 .skills li {
