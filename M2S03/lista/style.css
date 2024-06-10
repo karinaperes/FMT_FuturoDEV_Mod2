@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-produto{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    background-color: rgb(135, 179, 179);  
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nome-produto {
+    margin: 5px;
+}
+
+.preco-produto {
+    margin: 5px;
+    
+    
+}
