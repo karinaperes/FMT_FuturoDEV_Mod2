@@ -1,4 +1,5 @@
 document.getElementById('btn-add-item').addEventListener('click', addItem)
+document.getElementById('btn-clear-list').addEventListener('click', clearList)
 document.addEventListener('DOMContentLoaded', loadLista) 
     
 function addItem() {
@@ -42,4 +43,9 @@ function loadLista() {
     itens.forEach(item => {
         addItemLista(item)
     })
+}
+
+function clearList() {
+    localStorage.removeItem('itens')
+    document.getElementById('lista').innerHTML = ''
 }
