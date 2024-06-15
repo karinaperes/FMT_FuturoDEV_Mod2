@@ -49,6 +49,7 @@ button {
     background-color: #51829B;
     color: white;
     border-style: none;
+    margin-right: 20px;
 }
 
 button:active {
