@@ -1,5 +1,10 @@
 document.getElementById('btn-add-item').addEventListener('click', addItem)
 document.getElementById('btn-clear-list').addEventListener('click', clearList)
+document.getElementById('item-input').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        addItem()
+    }
+})
 document.addEventListener('DOMContentLoaded', loadLista) 
     
 function addItem() {
