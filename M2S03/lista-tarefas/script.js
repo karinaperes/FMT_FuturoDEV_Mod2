@@ -28,6 +28,14 @@ function addItemLista(item) {
     checkbox.type = 'checkbox'
     checkbox.className = 'checkbox'
 
+    checkbox.addEventListener('change', function() {
+        if (checkbox.checked) {
+            novoItem.classList.add('riscado');
+        } else {
+            novoItem.classList.remove('riscado');
+        }
+    })
+
     const itemText = document.createElement('span')
 
     itemText.textContent = item

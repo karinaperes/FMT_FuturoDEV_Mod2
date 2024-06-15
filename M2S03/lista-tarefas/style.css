@@ -36,7 +36,8 @@ input {
     border-radius: 10px;
     border-style:dotted;
     background-color: #EADFB4;
-    border-color: #27363d;  
+    border-color: #27363d; 
+    box-shadow: 2px 5px 5px rgb(70, 70, 70); 
 }
 
 button {
@@ -72,6 +73,7 @@ button:hover {
     border-color: #27363d;
     border-style:double;
     padding: 30px;
+    box-shadow: 2px 5px 5px rgb(70, 70, 70); 
 }
 
 .lista li {
@@ -84,4 +86,8 @@ button:hover {
     height: 20px; 
     width: 20px; 
     border-color: #27363d;
+}
+
+.riscado {
+    text-decoration: line-through;
 }
