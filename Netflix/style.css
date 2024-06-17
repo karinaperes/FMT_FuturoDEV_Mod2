@@ -23,8 +23,12 @@
     padding: 2em 25vw;
 }
 
-ul li {
-    cursor: pointer;
+.pointer {
+    cursor: pointer;    
+}
+
+a {
+    text-decoration: none;
 }
 
 .main {
@@ -34,10 +38,10 @@ ul li {
 }
 
 .info {
-    width: 600px;
+    width: 1000px;
     margin-top: 150px;
     margin-left: 30px;
-    padding: 60px;
+    padding: 30px;
 }
 
 .titulo {
@@ -50,14 +54,8 @@ ul li {
 }
 
 .descricao {
-    font-size: 14px;    
-}
-
-.card-episodio {
-    width: 230px;
-    height: 135px;
-    background-color: #e5e5e5;
-    border-radius: 6px;
+    font-size: 14px;
+    width: 200px;    
 }
 
 .red {
@@ -66,27 +64,28 @@ ul li {
 
 .poster {
     display: flex;
-    margin-left: 150px;
-    margin-top: 75px;
-    height: 450px;
-    
+    margin-left: 120px;
+    margin-top: 30px;
+    height: 450px;    
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
-    margin-left: 150px;  
+    margin-left: 100px;  
     height: 200px; 
     margin-top: 150px;
+    margin-right: 50px;
 }
 
 footer {
     display: flex;
     justify-content: end;
     margin-right: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 14px;
+    padding: 10px;
 }
 
 .row {
@@ -103,5 +102,12 @@ footer {
     margin-top: 28px;
 }
 
+.episodios {
+    height: 120px;   
+}
+
+.padding10 {
+    padding: 10px;
+}
 
 
