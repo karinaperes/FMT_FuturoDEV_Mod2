@@ -6,17 +6,18 @@ document.addEventListener('DOMContentLoaded', () => {
     ]
 
     const episodiosContainer = document.getElementById('episodios-container')
+    episodiosContainer.innerHTML = ''
+
     episodios.forEach(ep => {
-        const epCard = document.createElement('img')
-        epCard.id = ep.id
-        epCard.className = 'pointer radius20 shadow m-r-15'
-        epCard.src = ep.src
-        epCard.alt = ep.alt
-        epCard.addEventListener('click', () => {
-            episodioClicado(ep.alt)
-        })
-        episodiosContainer.appendChild(epCard)
-    })
+        const epCard = `<img 
+        id="${ep.id}" 
+        class="pointer radius20 shadow m-r-15" 
+        src="${ep.src}" 
+        alt="${ep.alt}" 
+        onclick="episodioClicado('${ep.alt}')"
+        >`
+        episodiosContainer.innerHTML += epCard
+    })        
 })
 
 function episodioClicado(epAlt) {
