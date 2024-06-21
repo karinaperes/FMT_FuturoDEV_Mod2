@@ -64,7 +64,7 @@ a {
 
 .poster {
     display: flex;
-    margin-left: 120px;
+    margin-left: 50px;
     margin-top: 30px;
     height: 450px;    
 }
@@ -110,4 +110,14 @@ footer {
     padding: 10px;
 }
 
+.radius20 {
+    border-radius: 20px;
+}
 
+.shadow {
+    box-shadow: 5px 5px 10px rgb(3, 0, 0);
+}
+
+.m-r-15 {
+    margin-right: 15px;
+}
