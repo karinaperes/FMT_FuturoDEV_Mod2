@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;    
+    background-color: black;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    color: white;
+}
+
+li {
+    /* display: list-item; */
+    /* text-align: -webkit-match-parent; */
+    /* unicode-bidi: isolate; */
+    list-style: none;
+}
+
+.header-menu {
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
