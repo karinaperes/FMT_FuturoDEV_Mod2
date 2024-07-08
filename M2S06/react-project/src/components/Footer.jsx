@@ -16,7 +16,7 @@ function Footer() {
                                 <a href="tel:+552199999999">+55 21 9999-9999</a>
                             </li>
                             <li>
-                                <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>                                
+                                <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>                                                            
                             </li>
                             <li>Rua Ali Perto, 42 - Botafogo</li>
                             <li>Rio de Janeiro - RJ</li>                            
@@ -52,7 +52,7 @@ function Footer() {
                             </ul>
                         </nav>
                     </div>
-                    <p className='footer-copy font-2-m cor-6'>Bikcraft @ Alguns direitos Reservados</p>
+                    <p className='footer-copy font-2-m cor-6'>Bikcraft © Alguns direitos Reservados</p>
                 </div>                
             </div>
         </>
