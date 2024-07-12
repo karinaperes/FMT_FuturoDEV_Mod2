@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  padding: 2em;
+  gap: 50px;
+  align-items: center;
+}
+
+.menos {
+  background-color: #D83A56;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.botao-custom:active {
+  transform: scale(1);
+}
+
+.mais {
+  background-color: #1FAB89;
+}
+
+.card-container {
+  display: flex;
+  background-color: #d6d6d6;
+  height: 200px;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 40px;
+  box-shadow: 1px 2px 10px gray;
+
+}
+
+span {
+  color: rgb(170, 41, 41);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
