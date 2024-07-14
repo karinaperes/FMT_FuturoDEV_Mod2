@@ -1,0 +1,16 @@
+.display {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#input-nome {
+    width: 20em;
+}
+
+#input-email {
+    width: 20em;
+}
+
+#input-idade {
+    width: 5em;
+}
