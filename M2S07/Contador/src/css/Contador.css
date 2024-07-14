@@ -12,17 +12,6 @@
     background-color: #1FAB89;
   }
   
-  .card-container {
-    display: flex;
-    background-color: #d6d6d6;
-    height: 200px;
-    flex-direction: column;
-    justify-content: flex-end;
-    border-radius: 40px;
-    box-shadow: 1px 2px 10px gray;
-  
-  }
-  
   span {
     color: rgb(170, 41, 41);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
