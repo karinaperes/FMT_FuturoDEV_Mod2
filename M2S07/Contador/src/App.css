@@ -19,6 +19,10 @@
   align-items: center;
 }
 
+.items-start {
+  align-items: start;
+}
+
 button:hover {
   transform: scale(1.1);
 }
@@ -42,4 +46,27 @@ input {
   padding: 10px;
   background-color: #242424;
   color: #ffffff;
+  margin: 10px;
+}
+
+.color-dgray {
+  color: #242424;
+}
+
+.container-lateral {
+  height: 400px;
+  width: 400px;
+  padding: 10px;  
+}
+
+.btn-input {
+  font-size: 12px;    
+  width: 100px;
+  margin: 10px;
+}
+
+.card {
+  padding: 2em;
+  gap: 50px;
+  align-items: center;
 }

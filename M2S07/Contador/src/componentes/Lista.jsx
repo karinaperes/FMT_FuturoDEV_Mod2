@@ -22,16 +22,16 @@
 
     return (
         <>
-            <div className="card-container container-lista">
-                <h2>Lista</h2>
+            <div className="card-container container-lateral">
+                <h2 className='color-dgray'>Lista</h2>
 
                 <form onSubmit={handleSubmit}>
                     <input type="text" value={texto} onChange={event => setTexto(event.target.value)} />
                     
                 </form>
 
-                <button className='btn-lista' onClick={handleClear}>Limpar</button>
-                <button className='btn-lista' onClick={handleSubmit}>Adicionar</button>
+                <button className='btn-input' onClick={handleClear}>Limpar</button>
+                <button className='btn-input' onClick={handleSubmit}>Adicionar</button>
 
                 <ul className='flex-column'>
                     {
