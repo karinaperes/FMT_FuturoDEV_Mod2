@@ -1,0 +1,24 @@
+.container-lista {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+}
+
+.container-lista h2 {
+    color: #242424;
+}
+
+ul {
+    list-style: none;
+    margin-top: 50px;
+    align-items: flex-start; 
+    color: #242424;
+    margin-left: 30px;
+    font-family: cursive; 
+}
+
+.btn-lista {
+    font-size: 12px;    
+    width: 100px;
+    margin: 10px;
+}
