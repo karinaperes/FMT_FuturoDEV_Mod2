@@ -1,0 +1,8 @@
+.hero-container {   
+    top: 64px;
+    width: 100%;
+    position: absolute;
+    background-color: #ffcc00;
+    background-position: bottom center;
+    height: 464px;    
+}
