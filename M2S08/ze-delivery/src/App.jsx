@@ -1,18 +1,22 @@
 import './App.css'
-// import { Routes, Route, BrowserRouter as Router } from  'react-router-dom'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Hero from './components/Hero/Hero'
+import { Routes, Route, BrowserRouter as Router } from  'react-router-dom'
+import Login from './pages/Login/Login'
+import Home from './pages/Home/Home'
 
-function App() {  
+function App() {    
 
   return (
     <>
-      
-      <Hero></Hero>
-      <Header></Header>
 
-      <Footer></Footer>
+    
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/signin' element={<Login />}></Route>
+        </Routes>
+      </Router>       
+
+      
       
     </>
   )
