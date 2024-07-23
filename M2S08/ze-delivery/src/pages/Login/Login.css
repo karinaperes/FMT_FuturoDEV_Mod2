@@ -1,0 +1,98 @@
+.login-pg {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+img {
+    width: 180px;
+}
+
+input {
+    width: 100%;
+    height: 56px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 27px 16px 10px;
+    margin: auto;
+    display: flex;
+    margin: 10px;
+}
+
+.f-14-b {
+    margin: auto;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-login {
+    outline: none;
+    border-radius: 24px;
+    font-size: 14px;    
+    font-family: Roboto;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+    text-align: center;
+    display: flex;
+    border: none;
+    justify-content: center;
+    height: 45px;
+
+}
+
+#btn-entrar {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 197, 0);
+    border: 1px solid rgb(255, 197, 0);
+    padding: 12px;
+}
+
+#login-facebook {
+    display: flex;    
+    padding: 5px;
+    background-color: #3458A4;
+    color: #FFFFFF;
+    border-color: #3458A4;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+#login-apple {
+    display: flex;    
+    padding: 5px;
+    background-color: rgb(51, 51, 51);
+    color: #FFFFFF;
+    border-color: rgb(51, 51, 51);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ou {
+    display: flex;
+    align-items: center;
+    text-align: center;  
+    gap: 10px; 
+    color: rgb(51, 51, 51);
+}
+  
+  .divisao {    
+    border: none;
+    border-top: 1px solid rgb(51, 51, 51);
+    width: 150px;    
+  }  
+  
