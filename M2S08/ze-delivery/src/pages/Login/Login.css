@@ -97,3 +97,8 @@ input {
 .login-pg svg {
     height: 24px;
 }
+
+.svg-button {
+    cursor: pointer;
+    margin-right: 450px;
+}
