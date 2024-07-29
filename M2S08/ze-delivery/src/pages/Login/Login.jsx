@@ -22,8 +22,14 @@ function Login() {
     return (
         <>
             <div className='login-pg'>
-                <img src="https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3Dundefined%26h%3Dundefined%26dpr%3D2%26fm%3Dpng&w=256&q=75" alt="Logo Zé delivery" />
-                <p className='f-14-b'>Entrar na conta com outros serviços:</p>
+            {/* <img alt="Logotipo Zé Delivery" srcset="/_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3Dundefined%26h%3Dundefined%26dpr%3D2%26fm%3Dpng&amp;w=256&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3Dundefined%26h%3Dundefined%26dpr%3D2%26fm%3Dpng&amp;w=384&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3Dundefined%26h%3Dundefined%26dpr%3D2%26fm%3Dpng&amp;w=384&amp;q=75" width="175" height="56" decoding="async" data-nimg="future" class="css-0" loading="lazy" style="color: transparent;"> */}
+
+            <img alt="Logo Zé Delivery" src="https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3Dundefined%26h%3Dundefined%26dpr%3D2%26fm%3Dpng&w=256&q=75"/>
+                <div className='flex-row w-100'>
+                    <svg viewBox="0 0 24 24" role="button" width="32" aria-label="Voltar" className="svg-button" onClick={() => navigate('/')}><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path></svg>
+                    <p>Entrar na conta com outros serviços:</p>
+                </div>
+                
                 <div className="contas">
                     <button type="button" id="login-facebook" className="btn-login">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30">
@@ -46,8 +52,8 @@ function Login() {
                     <hr className="divisao"></hr>
                     <p>OU</p> 
                     <hr className="divisao"></hr>
-                </div> 
-
+                </div>
+                <p>Insira seu e-mail para entrar ou se cadastrar:</p>
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder='Digite seu email' value={email} onChange={(e) => setEmail(e.target.value)}/>
                     <input type="password" placeholder='Digite sua senha' value={senha} onChange={(e) => setSenha(e.target.value)}/>
