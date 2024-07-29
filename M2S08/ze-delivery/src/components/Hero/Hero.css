@@ -2,7 +2,77 @@
     top: 64px;
     width: 100%;
     position: absolute;
-    background-color: #ffcc00;
+    background-color: rgb(255, 204, 0);
     background-position: bottom center;
     height: 464px;    
+    left: 0px;    
+    background-repeat: no-repeat;
+    background-position: center bott
 }
+
+.hero-text {
+    margin-top: 72px;
+    max-width: 592px;
+    padding: 16px;
+    z-index: 1;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    position: relative;
+    color: rgb(51, 51, 51);
+    font-weight: 400;    
+}
+
+.input-container {
+    width: 592px;
+    position: relative;
+    max-width: 100%;
+}
+
+.local-icon {
+    top: 50%;    
+    position: absolute;
+    transform: translate(16px, -50%);
+}
+
+
+
+@media (min-width: 575.98px) {
+.css-1ukbpq9 {
+    margin: unset;
+}
+}
+
+.input-area {
+height: 48px;
+border-radius: 8px;
+font-weight: lighter;
+color: rgb(51, 51, 51);
+background-color: rgb(255, 255, 255);
+line-height: 20px;
+font-family: Roboto;
+border: 1px solid rgb(153, 153, 153);
+padding-left: 48px;
+font-size: 16px;
+}
+
+button, input {
+overflow: visible;
+}
+button, input, optgroup, select, textarea {
+font-family: inherit;
+font-size: 100%;
+line-height: 1.15;
+margin: 0;
+}
+
+* {
+box-sizing: border-box;
+}
+
+input[type="text" i] {
+padding: 20px;
+padding-left: 40px;
+}
+
+
