@@ -32,3 +32,7 @@
 button:hover {
     background-color: rgb(252, 210, 74);
   }
+
+  img {
+    width: 120px;
+  }
