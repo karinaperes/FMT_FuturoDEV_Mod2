@@ -55,8 +55,8 @@ function Login() {
                 </div>
                 <p>Insira seu e-mail para entrar ou se cadastrar:</p>
                 <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder='Digite seu email' value={email} onChange={(e) => setEmail(e.target.value)}/>
-                    <input type="password" placeholder='Digite sua senha' value={senha} onChange={(e) => setSenha(e.target.value)}/>
+                    <input className='input-area' type="text" placeholder='Digite seu email' value={email} onChange={(e) => setEmail(e.target.value)}/>
+                    <input className='input-area' type="password" placeholder='Digite sua senha' value={senha} onChange={(e) => setSenha(e.target.value)}/>
                     <button id='btn-entrar' className='btn-login' type='submit'>Entrar</button>
                 </form>
             </div>            
