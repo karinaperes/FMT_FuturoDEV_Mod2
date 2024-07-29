@@ -2,7 +2,7 @@ import './Home.css'
 import Hero from "../../components/Hero/Hero"
 import Header from "../../components/Header/Header"
 import CategoriaProduto from "../../components/CategoriaProduto/CategoriaProduto"
-
+import PopupModal from '../../components/Modal/Modal'
 
 function Home() {
     const CATEGORIAS = [
@@ -94,7 +94,8 @@ function Home() {
     ]
 
     return (
-        <>            
+        <>  
+            <PopupModal/>              
             <Header></Header>
 
             <div className='flex-column'>
