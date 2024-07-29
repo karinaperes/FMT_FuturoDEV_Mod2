@@ -26,3 +26,28 @@ a {
 .w-100 {
     width: 100%;    
 }
+
+.input-area {
+    height: 48px;
+    border-radius: 8px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
+    line-height: 20px;
+    font-family: Roboto;
+    border: 1px solid rgb(153, 153, 153);
+    padding-left: 48px;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+input[type="text" i] {
+    padding: 20px;
+    padding-left: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
