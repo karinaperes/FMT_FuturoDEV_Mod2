@@ -5,7 +5,6 @@ import { Routes, Route, BrowserRouter as Router } from 'react-router-dom'
 
 function RoutesComponent() {
 
-
     return (
         <>
             <Router>

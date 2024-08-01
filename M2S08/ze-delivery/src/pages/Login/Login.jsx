@@ -21,8 +21,7 @@ function Login() {
     
     return (
         <>
-            <div className='login-pg'>
-            {/* <img alt="Logotipo Zé Delivery" srcset="/_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3Dundefined%26h%3Dundefined%26dpr%3D2%26fm%3Dpng&amp;w=256&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3Dundefined%26h%3Dundefined%26dpr%3D2%26fm%3Dpng&amp;w=384&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3Dundefined%26h%3Dundefined%26dpr%3D2%26fm%3Dpng&amp;w=384&amp;q=75" width="175" height="56" decoding="async" data-nimg="future" class="css-0" loading="lazy" style="color: transparent;"> */}
+            <div className='login-pg'>            
 
             <img alt="Logo Zé Delivery" src="https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3Dundefined%26h%3Dundefined%26dpr%3D2%26fm%3Dpng&w=256&q=75"/>
                 <div className='flex-row w-100'>

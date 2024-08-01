@@ -3,7 +3,6 @@ import '../Hero/Hero.css'
 function Hero() {
     return (
         <>
-
             <div className="hero-container flex-column">
                 <h1 className="hero-text">Bebida rápida, gelada e no precinho? O Zé entrega tudo.</h1>
                 <div>
@@ -14,8 +13,7 @@ function Hero() {
                         </svg>
                         <input id="fake-address-search-input" type="text" name="fake-address-search-input" placeholder="Inserir endereço para ver preço" className="input-area"/>
                     </div>
-                </div>
-                            
+                </div>                            
             </div>                     
         </>
     )
